@@ -2,3 +2,10 @@
 using Assign_08;
 
 Console.WriteLine("Welcome to the Employee wage computation program");
+Class1.EmployeeAttendance();
+Class2.EmployeeWagesCal();
+Class3.PartTimeEmpWages();
+Class4.PartTimeUsingSwitch();
+Class5.WagesForMonth();
+Class6.TotalEmployeeWage();
+Class7.ComputeEmpWage();
