@@ -7,3 +7,4 @@ Class2.EmployeeWagesCal();
 Class3.PartTimeEmpWages();
 Class4.PartTimeUsingSwitch();
 Class5.WagesForMonth();
+Class6.TotalEmployeeWage();
