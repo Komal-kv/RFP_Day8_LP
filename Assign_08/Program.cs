@@ -9,5 +9,14 @@ Console.WriteLine("Welcome to the Employee wage computation program");
 //Class5.WagesForMonth();
 //Class6.TotalEmployeeWage();
 //Class7.ComputeEmpWage();
-Class8.ComputeEmpWage("Dmart", 20, 2, 10);
-Class8.ComputeEmpWage("Reliance", 10, 4, 20);
+
+//Class8.ComputeEmpWage("Dmart", 20, 2, 10);
+//Class8.ComputeEmpWage("Reliance", 10, 4, 20);
+
+EmpWageBuilder Dmart = new EmpWageBuilder("Dmart", 20, 2, 10);
+EmpWageBuilder Reliance = new EmpWageBuilder("Reliance", 10, 4, 20);
+Dmart.ComputeWage();
+Console.WriteLine(Dmart.ToString());
+Reliance.ComputeWage();
+Console.WriteLine(Reliance.ToString());
+
